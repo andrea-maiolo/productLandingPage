@@ -1,0 +1,156 @@
+body{
+    background: #eeeeec;
+}
+
+@media (max-width:300px){
+    body{
+        width: auto;
+    }
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: fixed;
+    top:0;
+    background-color: #eeeeec;
+    width: -webkit-fill-available;
+}
+
+#title{
+    background: linear-gradient(90deg, #f32170, #eedd44, #ff6b08);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+}
+
+#header-img {
+    width: 128px;
+    height: 85px;
+}
+
+#nav-bar {
+    margin-top: 30px;
+}
+
+.nav-link{
+    text-decoration: none;
+    background: linear-gradient(90deg, #f32170, #a3972d, #ff6b08);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; 
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+}
+
+.nav-button {
+    border:none;
+    background: none;
+}
+
+.nav-button:hover{
+    transform: scale(1.2);
+}
+
+#video-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin:20px;
+}
+
+#video-p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.3em;
+}
+
+#video{
+    width:600px;
+    height:400px;
+}
+
+#features{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5em;
+    font-weight: 700;
+    margin:20px;
+    display: flex;
+    justify-content: center;
+}
+
+#packets {
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.singleOffert{
+    display:flex;
+    align-items: center;
+    flex-direction: column;
+    width: 400px;
+    height: auto;
+    border: 1px solid black;
+}
+
+.modelBack {
+    background: rgb(161, 157, 157);
+    width: -webkit-fill-available;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.model{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+}
+
+.pimg {
+    width: 200px;
+    height: 300px;
+}
+
+.description{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 500;
+}
+
+.extra{
+    font-size: x-small;
+    font-weight: bolder;
+    font-family: cursive;
+}
+
+.price {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 900;
+    background: linear-gradient(90deg, #f32170, #eedd44, #ff6b08);
+    cursor: pointer;
+}
+
+.price:hover{
+    transform: scale(1.2);
+}
+
+#footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#form{
+    margin-top:6em;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+#email{
+    margin:0.3rem;
+}
+
+#submit{
+    margin:0.3rem;
+    background: linear-gradient(90deg, #f32170, #eedd44, #ff6b08);
+}
